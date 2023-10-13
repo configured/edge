@@ -29,6 +29,14 @@ function buildHeroBlock(main) {
     main.prepend(section);
   }
 }
+function buildCodeLangBlock(main) {
+  main.querySelectorAll('pre').forEach((codeElem) => {
+    const language = codeElem.nextElementSibling;
+    const newCode = codeElem.cloneNode(true);
+    const block = buildBlock('code', { elems: [newCode, language] });
+    codeElem.replaceWith(block);
+  });
+}
 
 /**
  * load fonts.css and set a session storage flag
@@ -49,6 +57,7 @@ async function loadFonts() {
 function buildAutoBlocks(main) {
   try {
     buildHeroBlock(main);
+    buildCodeLangBlock(main);
   } catch (error) {
     // eslint-disable-next-line no-console
     console.error('Auto Blocking failed', error);
