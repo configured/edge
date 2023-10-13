@@ -250,7 +250,6 @@ main .section.highlight {
   background-color: var(--highlight-background-color);
 }
 
-.hero.black {
-  font-color: white;
-  background-color: red;
+main .hero.black h1 {
+  color: black;
 }
