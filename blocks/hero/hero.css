@@ -21,7 +21,7 @@ main .hero h1 {
   color: white;
 }
 
-main .hero.blue h1 {
+main .hero.blue h2 {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
