@@ -19,6 +19,25 @@
   display: block;
 }
 
+.columns a.button {
+  display: inline-block;
+  background: linear-gradient(135deg, #e53e3e 0%, #c53030 100%);
+  color: white;
+  text-decoration: none;
+  padding: 16px 32px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 16px rgba(229, 62, 62, 0.3);
+}
+
+.columns a.button:hover {
+  background: linear-gradient(135deg, #c53030 0%, #a02828 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 24px rgba(229, 62, 62, 0.4);
+}
+
 @media (min-width: 900px) {
   .columns > div {
     align-items: center;
