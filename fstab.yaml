@@ -1,5 +1,2 @@
 mountpoints:
-  /:
-    url: "https://author-p129454-e1486706.adobeaemcloud.com/bin/franklin.delivery/configured/edge/main"
-    type: "markup"
-    suffix: ".html"
+  /: https://author-p129454-e1486706.adobeaemcloud.com/bin/franklin.delivery/configured/edge/main
