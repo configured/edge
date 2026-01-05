@@ -1,6 +1,6 @@
 mountpoints:
-  /: https://drive.google.com/drive/folders/1uENItmOfYV-qs94zmACW-_6yOoeUEdh7
-  /test:
+  /:
     url: "https://author-p129454-e1486706.adobeaemcloud.com/bin/franklin.delivery/configured/edge/main"
     type: "markup"
     suffix: ".html"
+  /google: https://drive.google.com/drive/folders/1uENItmOfYV-qs94zmACW-_6yOoeUEdh7
